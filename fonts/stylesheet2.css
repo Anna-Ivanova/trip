@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'AirbnbCereal_W_Bk';
+    src: url('AirbnbCerealWBk.eot');
+    src: url('AirbnbCerealWBk.eot?#iefix') format('embedded-opentype'),
+        url('AirbnbCerealWBk.woff2') format('woff2'),
+        url('AirbnbCerealWBk.woff') format('woff'),
+        url('AirbnbCerealWBk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AirbnbCereal_W_Md';
+    src: url('AirbnbCerealWMd.eot');
+    src: url('AirbnbCerealWMd.eot?#iefix') format('embedded-opentype'),
+        url('AirbnbCerealWMd.woff2') format('woff2'),
+        url('AirbnbCerealWMd.woff') format('woff'),
+        url('AirbnbCerealWMd.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eksell Display Small';
+    src: url('EksellDisplaySmall.eot');
+    src: url('EksellDisplaySmall.eot?#iefix') format('embedded-opentype'),
+        url('EksellDisplaySmall.woff2') format('woff2'),
+        url('EksellDisplaySmall.woff') format('woff'),
+        url('EksellDisplaySmall.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eksell Display';
+    src: url('EksellDisplayMedium.eot');
+    src: url('EksellDisplayMedium.eot?#iefix') format('embedded-opentype'),
+        url('EksellDisplayMedium.woff2') format('woff2'),
+        url('EksellDisplayMedium.woff') format('woff'),
+        url('EksellDisplayMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AirbnbCereal_W_Bd';
+    src: url('AirbnbCerealWBd.eot');
+    src: url('AirbnbCerealWBd.eot?#iefix') format('embedded-opentype'),
+        url('AirbnbCerealWBd.woff2') format('woff2'),
+        url('AirbnbCerealWBd.woff') format('woff'),
+        url('AirbnbCerealWBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

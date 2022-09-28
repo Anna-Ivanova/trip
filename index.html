@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./icomoon/iconmoon.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_menu d-flex">
+                    <a class="header_menu-logo" href="#"><img src="./img/header-logo.svg" alt=""></a>
+                    <ul class="header_menu-nav d-flex">
+                        <li class="header_menu-nav-item"><a href="#">Home</a> </li>
+                        <li class="header_menu-nav-item"><a href="#">About</a></li>
+                        <li class="header_menu-nav-item"><a href="#">Pack</a></li>
+                        <li class="header_menu-nav-item"><a href="#">Contact Us</a></li>
+                        <li class="header_menu-nav-item"><a href="#">FAQ</a> </li>
+                    </ul>
+                    <button class="header_menu_btn btn-blue">Register</button>
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+        <main>
+            <section class="tripgoal">
+                <div class="container">
+                    <div class="tripgoal-main d-grid">
+                        <div class="tripgoal-images">
+                            <div class="tripgoal-mountain">
+                                <img src="./img/mountain.jpg" alt="mountain">
+                            </div>
+                            <div class="tripgoal-pool">
+                                <img src="./img/pool.jpg" alt="pool">
+                            </div>
+
+                        </div>
+                        <div class="tripgoal-about d-flex">
+                            <a href="#">Book Now</a>
+                            <h1>Let’s Enjoy Your Trip with TripGoal</h1>
+                            <p>Thinking of taking a break from every day's busy life? Planning to go out of the country
+                                with your loved ones to have some fun and quality time in a cost-effective way?</p>
+                            <button class="btn-blue">Start Now</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="perfect">
+                <div class="container">
+                    <div class="booking">
+                        <form class="booking-form d-flex" action="https://fom.in.ua/echo" method="GET">
+                            <div class="booking-form-select d-flex">
+                                <div class="booking-form-item">
+                                    <h3>Location</h3>
+                                    <select name="location" id="location">
+                                        <option value="">Select</option>
+                                        <option value="France">France</option>
+                                        <option value="Germany">Germany</option>
+                                        <option value="italy">Italy</option>
+                                        <option value="turkey">Turley</option>
+                                    </select>
+                                </div>
+                                <div class="booking-form-item">
+                                    <h3>Your Caterory</h3>
+                                    <select name="category" id="category">
+
+                                        <option value="">Select</option>
+                                        <option value="bus">Bus</option>
+                                        <option value="air">Air</option>
+
+                                    </select>
+                                </div>
+                                <div class="booking-form-item">
+                                    <h3>Total Person</h3>
+                                    <select name="person" id="person">
+
+                                        <option value="">Select</option>
+                                        <option value="one">1</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="booking-form-btn">
+                                <svg width="22" height="24" viewBox="0 0 22 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M18.2 3.03686C17.236 2.69875 16.4368 1.88903 16.4368 0.867476C16.4368 0.393256 16.0303 0 15.5402 0C15.0501 0 14.6437 0.393256 14.6437 0.867476C14.6437 1.82566 13.8669 2.60243 12.9087 2.60243H8.6085C7.65031 2.60243 6.87355 1.82566 6.87355 0.867476C6.87355 0.393256 6.46711 0 5.97699 0C5.48688 0 5.08044 0.393256 5.08044 0.867476C5.08044 1.88903 4.2812 2.69875 3.31723 3.03686C1.27167 3.75433 0.238338 5.38442 0.0477982 7.58753C0.0238902 7.92295 0.310787 8.20054 0.645499 8.20054H20.8717C21.2184 8.20054 21.5053 7.91139 21.4694 7.58753C21.2789 5.38442 20.2455 3.75433 18.2 3.03686Z"
+                                        fill="white" />
+                                    <path
+                                        d="M20.3218 9.93532H1.1954C0.537931 9.93532 0 10.4558 0 11.092V18.2168C0 21.6867 1.7931 24 5.97701 24H15.5402C19.7241 24 21.5172 21.6867 21.5172 18.2168V11.092C21.5172 10.4558 20.9793 9.93532 20.3218 9.93532ZM7.42345 19.6164C7.36368 19.6626 7.30391 19.7204 7.24414 19.7551C7.17242 19.8014 7.10069 19.8361 7.02897 19.8592C6.95724 19.8939 6.88552 19.9171 6.81379 19.9286C6.73012 19.9402 6.65839 19.9518 6.57471 19.9518C6.41931 19.9518 6.26391 19.9171 6.12046 19.8592C5.96506 19.8014 5.84552 19.7204 5.72598 19.6164C5.5108 19.3966 5.37931 19.0959 5.37931 18.7951C5.37931 18.4944 5.5108 18.1937 5.72598 17.9739C5.84552 17.8698 5.96506 17.7889 6.12046 17.731C6.33563 17.6385 6.57471 17.6154 6.81379 17.6616C6.88552 17.6732 6.95724 17.6963 7.02897 17.731C7.10069 17.7542 7.17242 17.7889 7.24414 17.8351C7.30391 17.8814 7.36368 17.9277 7.42345 17.9739C7.63862 18.1937 7.77012 18.4944 7.77012 18.7951C7.77012 19.0959 7.63862 19.3966 7.42345 19.6164ZM7.42345 15.5681C7.19632 15.7763 6.88552 15.9036 6.57471 15.9036C6.26391 15.9036 5.9531 15.7763 5.72598 15.5681C5.5108 15.3484 5.37931 15.0476 5.37931 14.7469C5.37931 14.4462 5.5108 14.1455 5.72598 13.9257C6.06069 13.6018 6.58667 13.4978 7.02897 13.6828C7.18437 13.7406 7.31586 13.8216 7.42345 13.9257C7.63862 14.1455 7.77012 14.4462 7.77012 14.7469C7.77012 15.0476 7.63862 15.3484 7.42345 15.5681ZM11.6074 19.6164C11.3802 19.8245 11.0694 19.9518 10.7586 19.9518C10.4478 19.9518 10.137 19.8245 9.90989 19.6164C9.69471 19.3966 9.56322 19.0959 9.56322 18.7951C9.56322 18.4944 9.69471 18.1937 9.90989 17.9739C10.3522 17.546 11.1651 17.546 11.6074 17.9739C11.8225 18.1937 11.954 18.4944 11.954 18.7951C11.954 19.0959 11.8225 19.3966 11.6074 19.6164ZM11.6074 15.5681C11.5476 15.6144 11.4878 15.6607 11.428 15.7069C11.3563 15.7532 11.2846 15.7879 11.2129 15.811C11.1412 15.8457 11.0694 15.8689 10.9977 15.8804C10.914 15.892 10.8423 15.9036 10.7586 15.9036C10.4478 15.9036 10.137 15.7763 9.90989 15.5681C9.69471 15.3484 9.56322 15.0476 9.56322 14.7469C9.56322 14.4462 9.69471 14.1455 9.90989 13.9257C10.0175 13.8216 10.149 13.7406 10.3044 13.6828C10.7467 13.4978 11.2726 13.6018 11.6074 13.9257C11.8225 14.1455 11.954 14.4462 11.954 14.7469C11.954 15.0476 11.8225 15.3484 11.6074 15.5681ZM15.7913 19.6164C15.5641 19.8245 15.2533 19.9518 14.9425 19.9518C14.6317 19.9518 14.3209 19.8245 14.0938 19.6164C13.8786 19.3966 13.7471 19.0959 13.7471 18.7951C13.7471 18.4944 13.8786 18.1937 14.0938 17.9739C14.5361 17.546 15.349 17.546 15.7913 17.9739C16.0064 18.1937 16.1379 18.4944 16.1379 18.7951C16.1379 19.0959 16.0064 19.3966 15.7913 19.6164ZM15.7913 15.5681C15.7315 15.6144 15.6717 15.6607 15.612 15.7069C15.5402 15.7532 15.4685 15.7879 15.3968 15.811C15.3251 15.8457 15.2533 15.8689 15.1816 15.8804C15.0979 15.892 15.0143 15.9036 14.9425 15.9036C14.6317 15.9036 14.3209 15.7763 14.0938 15.5681C13.8786 15.3484 13.7471 15.0476 13.7471 14.7469C13.7471 14.4462 13.8786 14.1455 14.0938 13.9257C14.2133 13.8216 14.3329 13.7406 14.4883 13.6828C14.7035 13.5903 14.9425 13.5672 15.1816 13.6134C15.2533 13.625 15.3251 13.6481 15.3968 13.6828C15.4685 13.7059 15.5402 13.7406 15.612 13.7869C15.6717 13.8332 15.7315 13.8794 15.7913 13.9257C16.0064 14.1455 16.1379 14.4462 16.1379 14.7469C16.1379 15.0476 16.0064 15.3484 15.7913 15.5681Z"
+                                        fill="white" />
+                                </svg>
+                                <input class="btn-form btn-blue" type="submit" value="Book now">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="perfect-info ">
+                        <p class="perfect-info-text">3 steps for the perfect trip</p>
+                        <h3 class="main-title">Find travel perfection</h3>
+                        <p class="perfect-info-p2 main-text">Naturally head of the class whenit comes to luxury travel
+                            planning,bbecause
+                            we do more homework than anyone else</p>
+
+                    </div>
+                    <div class="perfect-cards d-grid">
+                        <div class="perfect-card d-flex">
+                            <div class="perfect-card-image">
+                                <img src="./img/Chat.svg" alt="chat logo">
+                            </div>
+                            <div class="perfect-card-about">
+                                <h4>Tell us what you want to do</h4>
+                                <p class="main-text">Fill out a 2-minute questionnaire about how you like to travel</p>
+                            </div>
+                        </div>
+                        <div class="perfect-card d-flex">
+                            <div class="perfect-card-image">
+                                <img src="./img/Calendar.svg" alt="calendar logo">
+                            </div>
+                            <div class="perfect-card-about">
+                                <h4>Share your travel preference</h4>
+                                <p class="main-text">It all happends online,We recommend everything to your vision</p>
+                            </div>
+                        </div>
+                        <div class="perfect-card d-flex">
+                            <div class="perfect-card-image">
+                                <img src="./img/Star.svg" alt="stars logo">
+                            </div>
+                            <div class="perfect-card-about">
+                                <h4>We’ll give you recommendations</h4>
+                                <p class="main-text">Once you’re happy with your final plan, We handle everything for
+                                    you</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </section>
+            <section class="location">
+                <div class="container">
+                    <div class="location-info ">
+                        <p class="perfect-info-text">Location</p>
+                        <h3 class="location-info-title main-title">Suggested Location</h3>
+                        <p class="location-info-p2 main-text">Travel is my life. Since 1999, I’ve been traveling around
+                            the world nonstop. If you also love travel, you’re in the right place!
+                        </p>
+
+                    </div>
+
+                    <div class="responsive">
+                        <div class="responsive-item">
+                            <img src="./img/Bali.jpg" alt="Bali">
+                        </div>
+                        <div class="responsive-item">
+                            <img src="./img/Tokyo.jpg" alt="Tokyo">
+                        </div>
+                        <div class="responsive-item">
+                            <img src="./img/Venice.jpg" alt="Venice">
+                        </div>
+                        <div class="responsive-item">
+                            <img src="./img/Bali.jpg" alt="Bali">
+                        </div>
+                        <div class="responsive-item">
+                            <img src="./img/Tokyo.jpg" alt="Tokyo">
+                        </div>
+                        <div class="responsive-item">
+                            <img src="./img/Venice.jpg" alt="Venice">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="discover">
+                <div class="discover-inner">
+                    <div class="discover-video">
+                        <video muted autoplay loop>
+                            <source src="./img/pexels-pavel-danilyuk-8970063.mp4" type="video/mp4">
+
+                            Your browser does not support the video tag.
+                        </video>
+                        <img src="./img/map.svg" alt="map">
+
+                        <div class="discover-about">
+                            <p class="perfect-info-text">Take a Tour</p>
+                            <h3 class="discover-about-title main-title">Discover Our Travel Guideline</h3>
+                            <p class="discover-about-p2 main-text">For curious travelers who want to connect locally and
+                                go deeper into a place. Our Experiential Travel Guides highlight offbeat and local
+                                experiences that help you.
+                            </p>
+                            <button class="discover-about-btn btn-blue">Start Now</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+            <section class="perfectplace">
+                <div class="container">
+                    <div class="tripgoal-main d-grid">
+
+                        <div class="tripgoal-about d-flex">
+                            <a href="#">About Us</a>
+                            <h1>The Perfect Travel Place For You & Your Family</h1>
+                            <p>how travel can be one of the best tools for personal growth. We share some of the life
+                                lessons we've learned on the road that has provided us insight into empathy,
+                                mindfulness, meditation, comfort zones, two-way storytelling, being present, connection
+                                and more.</p>
+                            <div class="tripgoal-total d-grid">
+                                <div class="tripgoal-total-item">
+                                    <p class="tripgoal-total-item-quantity">10M+</p>
+                                    <h4 class="tripgoal-total-item-word">Visitors</h4>
+                                </div>
+                                <div class="tripgoal-total-item">
+                                    <p class="tripgoal-total-item-quantity">109</p>
+                                    <h4 class="tripgoal-total-item-word">Hotels</h4>
+                                </div>
+                                <div class="tripgoal-total-item">
+                                    <p class="tripgoal-total-item-quantity">29</p>
+                                    <h4 class="tripgoal-total-item-word">Food Shops</h4>
+                                </div>
+                                <div class="tripgoal-total-item">
+                                    <p class="tripgoal-total-item-quantity">18</p>
+                                    <h4 class="tripgoal-total-item-word">Related Spots</h4>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tripgoal-images perfectplace-imgs">
+                            <div class="tripgoal-night">
+                                <img src="./img/citynight.jpg" alt="mountain">
+                            </div>
+                            <div class="tripgoal-window">
+                                <img src="./img/window.jpg" alt="pool">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="customers">
+                <div class="map-container">
+                    <div class="customers-feedback">
+                        <div class="customers-feedback-about d-flex">
+                            <p class="perfect-info-text">Testimonials</p>
+                            <h3 class="customers-feedback-about-title main-title">What Our Customer Say About Us</h3>
+                            <p class=" main-text">What customers says about our service and guideline. Customers
+                                compliment is most important to upgradation of bussiness service </p>
+                        </div>
+                        <div class="customers-feedback-map">
+                            <div class="img1">
+                                <img src="./img/faces/facelefttop.png" alt="face">
+                            </div>
+                            <div class="img2">
+                                <img src="./img/faces/Face2.png" alt="face2">
+                            </div>
+                            <div class="img3">
+                                <img src="./img/faces/Face3.png" alt="face3">
+                            </div>
+                            <div class="img4">
+                                <img src="./img/faces/face4.png" alt="face4">
+                            </div>
+                            <div class="img5">
+                                <img src="./img/faces/facetop cent40px.png" alt="face5">
+                            </div>
+                            <div class="img6">
+                                <img src="./img/faces/Face5.png" alt="face6">
+                            </div>
+                            <div class="img7">
+                                <img src="./img/faces/Face6.png" alt="face7">
+                            </div>
+                            <div class="img8">
+                                <img src="./img/faces/Face7.png" alt="face8">
+                            </div>
+
+                            <div class="customers-feedback-map-info d-flex">
+                                <p class="customers-feedback-map-info-text"> I have traveled and explored several
+                                    destinations using this
+                                    platform, no doubt it is highly recommended for traveling because it is comfortable
+                                    and the service is great.</p>
+                                <p class="customers-feedback-map-info-name">Adam L. Brian</p>
+                                <small>Traveller</small>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="follow">
+                <div class="container">
+                    <div class="follow-top d-flex">
+                        <div class="follow-top-info">
+                            <p class="perfect-info-text">Social Feed</p>
+                            <h3 class="customers-feedback-about-title main-title">Check Our Instagram Profile</h3>
+                        </div>
+                        <div class="follow-top-button">
+                            <button class="header_menu_btn btn-blue">Follow Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carusel">
+                    <div class="carusel-item"><img src="./img/carusel/beach.jpg" alt="spa resort"></div>
+                    <div class="carusel-item"><img src="./img/carusel/cathedral.jpg" alt="cathedral"></div>
+                    <div class="carusel-item"><img src="./img/carusel/bridge.jpg" alt="bridge"></div>
+                    <div class="carusel-item"><img src="./img/carusel/bridge (2).jpg" alt="New York bridge"></div>
+                    <div class="carusel-item"><img src="./img/carusel/traveler.jpg" alt="woman traveler"></div>
+                    <div class="carusel-item"><img src="./img/carusel/beach.jpg" alt="spa resort"></div>
+                    <div class="carusel-item"><img src="./img/carusel/cathedral.jpg" alt="cathedral"></div>
+                    <div class="carusel-item"><img src="./img/carusel/bridge.jpg" alt="bridge"></div>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="container">
+                    <div class="contact-inner d-flex">
+                        <div class="contact-inner-about">
+                            <p class="perfect-info-text">Contact Us</p>
+                            <h2>Do You Have Any Questions?</h2>
+                            <button class="header_menu_btn btn-blue">Contact Us</button>
+                        </div>
+                        <div class="contact-inner-img">
+                            <div class="contact-inner-img-wrap"><img
+                                    src="./img/happy-woman-holding-her-baggage-plane-ticket 1 (1).png"
+                                    alt="happy woman"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="header_menu footer-menu d-flex">
+                    <a class="header_menu-logo" href="#"><img src="./img/header-logo.svg" alt=""></a>
+                    <ul class="header_menu-nav d-flex">
+                        <li class="header_menu-nav-item"><a href="#">Home</a> </li>
+                        <li class="header_menu-nav-item"><a href="#">About</a></li>
+                        <li class="header_menu-nav-item"><a href="#">Pack</a></li>
+                        <li class="header_menu-nav-item"><a href="#">Contact Us</a></li>
+                        <li class="header_menu-nav-item"><a href="#">FAQ</a> </li>
+                    </ul>
+                    <div class="footer-social d-flex">
+                        <a class="footer-social-icon" href="https://www.facebook.com/">
+                            <svg width="10" height="18" viewBox="0 0 10 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.42255 10.0415V17.3088H3.21063V10.0415V10.0171H3.18622H0.561218V7.04964H3.18622H3.21063V7.02523V4.7264C3.21063 3.42366 3.59857 2.41547 4.28039 1.73299C4.96225 1.0505 5.94083 0.690918 7.12762 0.690918C7.69713 0.690918 8.28001 0.741756 8.72073 0.792645C8.94104 0.818083 9.12571 0.84352 9.25528 0.862594C9.32006 0.87213 9.37106 0.880075 9.40585 0.885632L9.43882 0.890984V3.4139H8.14748C7.49407 3.4139 7.06146 3.61685 6.79267 3.92768C6.52445 4.23783 6.42255 4.65172 6.42255 5.06787V7.02523V7.04964H6.44696H9.31272L8.85732 10.0171H6.44696H6.42255V10.0415Z"
+                                    fill="#697687" stroke="#697687" stroke-width="0.0488281" />
+                            </svg>
+                        </a>
+                        <a class="footer-social-icon" href="https://www.instagram.com/"><svg width="16" height="16"
+                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.2357 2.13461L14.2357 2.13465C15.0858 2.98149 15.3518 4.00963 15.407 5.17515L15.4313 5.17399L15.407 5.17537C15.4753 6.37888 15.4753 9.98473 15.407 11.1882L15.407 11.1884C15.3485 12.354 15.0826 13.3821 14.2357 14.229L14.2357 14.229C13.3888 15.0791 12.3607 15.3451 11.1952 15.4003L11.1949 15.4003C9.99143 15.4686 6.38233 15.4686 5.17882 15.4003L5.17866 15.4003C4.01312 15.3418 2.98816 15.0759 2.13803 14.229C1.28795 13.3821 1.02199 12.354 0.966801 11.1885L0.966788 11.1882C0.898481 9.98473 0.898481 6.37563 0.966789 5.17212L0.966797 5.17196C1.02524 4.00633 1.28798 2.97821 2.13803 2.13139C2.98815 1.2845 4.01635 1.01854 5.1786 0.963352L5.17882 0.96334C6.38233 0.895033 9.99143 0.895033 11.1949 0.96334L11.1951 0.963348C12.3607 1.02179 13.3888 1.28776 14.2357 2.13461ZM12.4976 13.8913L12.4977 13.8913C13.1452 13.6317 13.6416 13.1352 13.898 12.491C14.0903 12.0079 14.1634 11.194 14.1891 10.3717C14.2074 9.78252 14.2014 9.18629 14.1965 8.70072C14.1945 8.50782 14.1927 8.33239 14.1927 8.1818C14.1927 8.03119 14.1945 7.85579 14.1965 7.66295C14.2014 7.17766 14.2074 6.58197 14.1891 5.99314C14.1634 5.17125 14.0903 4.35735 13.8981 3.87267L13.898 3.87259C13.6384 3.22515 13.1419 2.72867 12.4977 2.47227L12.4976 2.47224C12.0146 2.28166 11.2007 2.20849 10.3784 2.18247C9.7848 2.16368 9.18405 2.16944 8.69651 2.17412C8.50792 2.17593 8.33626 2.17757 8.18851 2.17757C8.03789 2.17757 7.86249 2.17579 7.66966 2.17384C7.18437 2.16892 6.58868 2.16289 5.99984 2.18125C5.17796 2.20687 4.36406 2.28003 3.87938 2.47226L3.87929 2.47229C3.23185 2.73193 2.73537 3.22837 2.47897 3.87265L2.47895 3.87271C2.28837 4.35574 2.2152 5.16962 2.18917 5.9919C2.17038 6.58551 2.17614 7.18626 2.18082 7.6738C2.18263 7.8624 2.18428 8.03405 2.18428 8.1818C2.18428 8.33242 2.1825 8.50782 2.18055 8.70065C2.17563 9.18594 2.16959 9.78163 2.18795 10.3705C2.21357 11.1924 2.28674 12.0063 2.47896 12.4909L2.479 12.491C2.73863 13.1385 3.23507 13.6349 3.87935 13.8913L3.87942 13.8914C4.36244 14.0819 5.17632 14.1551 5.99861 14.1811C6.59222 14.1999 7.19296 14.1942 7.6805 14.1895C7.8691 14.1877 8.04076 14.186 8.18851 14.186C8.33912 14.186 8.51452 14.1878 8.70735 14.1898C9.19264 14.1947 9.78833 14.2007 10.3772 14.1824C11.1991 14.1567 12.013 14.0836 12.4976 13.8913ZM4.47269 8.1818C4.47269 6.12497 6.13168 4.46598 8.18851 4.46598C10.2453 4.46598 11.9043 6.12497 11.9043 8.1818C11.9043 10.2386 10.2453 11.8976 8.18851 11.8976C6.13168 11.8976 4.47269 10.2386 4.47269 8.1818ZM5.73245 8.1818C5.73245 9.53645 6.83715 10.6379 8.18851 10.6379C9.53986 10.6379 10.6446 9.53645 10.6446 8.1818C10.6446 6.82717 9.54314 5.72575 8.18851 5.72575C6.83388 5.72575 5.73245 6.82717 5.73245 8.1818ZM12.9297 4.28857C12.9297 4.76006 12.5501 5.13656 12.0817 5.13656C11.6103 5.13656 11.2338 4.75692 11.2338 4.28857C11.2338 3.82029 11.6135 3.44059 12.0817 3.44059C12.55 3.44059 12.9297 3.82029 12.9297 4.28857Z"
+                                    fill="#697687" stroke="#697687" stroke-width="0.0488281" />
+                            </svg>
+                        </a>
+                        <a class="footer-social-icon" href="https://www.pinterest.com/"><svg width="19" height="19"
+                                viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.57132 11.1888L7.56307 11.171C7.55545 11.1541 7.54463 11.1292 7.53167 11.0969C7.50575 11.0322 7.47128 10.9376 7.43684 10.8176C7.36797 10.5774 7.29913 10.2351 7.29913 9.82578C7.29913 8.54388 8.0434 7.57623 8.98316 7.57623C9.38169 7.57623 9.679 7.726 9.87621 7.96681C10.0729 8.20697 10.1682 8.53543 10.1682 8.89063C10.1682 9.28831 10.0423 9.7822 9.88534 10.3105C9.84142 10.4583 9.79504 10.6088 9.7482 10.7608C9.62713 11.1538 9.50293 11.5569 9.4098 11.9494L9.40979 11.9494C9.1958 12.8453 9.8583 13.5752 10.7426 13.5752C11.5481 13.5752 12.262 13.1508 12.7754 12.4163C13.2889 11.6815 13.6012 10.6369 13.6012 9.40071C13.6012 8.30898 13.2089 7.38309 12.5381 6.73012C11.8672 6.0771 10.9162 5.69562 9.79633 5.69562C7.2013 5.69562 5.68096 7.63895 5.68096 9.64836C5.68096 10.4306 5.98246 11.2677 6.35185 11.725C6.35188 11.725 6.35191 11.725 6.35195 11.7251L6.33296 11.7404C6.40688 11.8291 6.41797 11.9105 6.39579 12.0029C6.36477 12.1302 6.31715 12.3232 6.27111 12.5099C6.21293 12.7457 6.15726 12.9713 6.14075 13.0415L7.57132 11.1888ZM7.57132 11.1888L7.5707 11.1914L7.5631 11.2236L7.53407 11.3466L7.42921 11.7911L7.09973 13.1884C6.85255 14.2371 6.58457 15.3756 6.50139 15.7342C6.31892 16.5152 6.38738 17.609 6.46337 18.334C3.08422 16.9936 0.69104 13.6933 0.69104 9.83317C0.69104 4.78281 4.78293 0.690918 9.83329 0.690918C14.8837 0.690918 18.9755 4.78281 18.9755 9.83317C18.9755 14.8835 14.8837 18.9754 9.83329 18.9754C8.90057 18.9754 8.00389 18.835 7.15746 18.5755C7.53058 17.9634 8.07735 16.9801 8.28232 16.1932L8.28233 16.1931C8.33777 15.9788 8.48006 15.4336 8.60851 14.942L8.77819 14.2928L8.83162 14.0885L8.8362 14.071M7.57132 11.1888L8.8362 14.071M8.8362 14.071C8.99598 14.3405 9.27946 14.5863 9.63079 14.7681C10.0055 14.962 10.4594 15.0841 10.9274 15.0841C13.71 15.0841 15.7088 12.5253 15.7088 9.35636C15.7088 6.31403 13.2234 4.03893 10.0329 4.03893C8.0497 4.03893 6.52867 4.70446 5.5034 5.73484C4.47831 6.76504 3.95034 8.15842 3.95034 9.6114C3.95034 10.2881 4.13057 11.0467 4.45416 11.7032C4.77761 12.3593 5.24575 12.9163 5.82365 13.1856C5.82364 13.1856 5.82363 13.1856 5.82361 13.1856L5.83396 13.1635L8.8362 14.071Z"
+                                    fill="#697687" stroke="#697687" stroke-width="0.0488281" />
+                            </svg></a>
+                    </div>
+
+                </div>
+                <div class="footer-copyright">
+                    <small> © 2021. All copyrights reserved by RH Agency</small>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.responsive').slick({
+                arrows: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            arrows: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            autoplay: true,
+                            autoplaySpeed: 2000
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            autoplay: true,
+                            autoplaySpeed: 2000
+                        }
+                    }
+
+                ]
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.carusel').slick({
+                arrows: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 5,
+                variableWidth: true,
+                centerMode: true,
+                slidesToScroll: 1,
+                infinite: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            arrows: true,
+                            autoplay: true,
+                            centermode: true,
+                            autoplaySpeed: 2000
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            autoplay: true,
+                            centermode: true,
+                            autoplaySpeed: 2000
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            autoplay: true,
+                            centermode: true,
+                            autoplaySpeed: 2000
+                        }
+                    }
+
+                ]
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        const burgerHandler = () => {
+            const burgerBtn = document.querySelector(".burger");
+            const nav = document.querySelector(".header_menu-nav");
+
+            if (!burgerBtn && !nav) return;
+
+            burgerBtn.addEventListener("click", () => {
+                if (nav.classList.contains("show")) {
+                    nav.classList.remove("show");
+                } else {
+                    nav.classList.add("show");
+                }
+            });
+        };
+
+        burgerHandler();
+    </script>
+</body>
+
+</html>
