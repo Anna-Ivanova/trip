@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./slick/slick.css">
     <link rel="stylesheet" href="./icomoon/iconmoon.css">
     <title>Home</title>
@@ -117,27 +117,27 @@
 
                     </div>
                     <div class="perfect-cards d-grid">
-                        <div class="perfect-card d-flex">
+                        <div class="perfect-card d-grid">
                             <div class="perfect-card-image">
-                                <img src="./img/Chat.svg" alt="chat logo">
+                                <img src="./img/Chat.png" alt="chat logo">
                             </div>
                             <div class="perfect-card-about">
                                 <h4>Tell us what you want to do</h4>
                                 <p class="main-text">Fill out a 2-minute questionnaire about how you like to travel</p>
                             </div>
                         </div>
-                        <div class="perfect-card d-flex">
+                        <div class="perfect-card d-grid">
                             <div class="perfect-card-image">
-                                <img src="./img/Calendar.svg" alt="calendar logo">
+                                <img src="./img/Calendar.png" alt="calendar logo">
                             </div>
                             <div class="perfect-card-about">
                                 <h4>Share your travel preference</h4>
                                 <p class="main-text">It all happends online,We recommend everything to your vision</p>
                             </div>
                         </div>
-                        <div class="perfect-card d-flex">
+                        <div class="perfect-card d-grid">
                             <div class="perfect-card-image">
-                                <img src="./img/Star.svg" alt="stars logo">
+                                <img src="./img/Star.png" alt="stars logo">
                             </div>
                             <div class="perfect-card-about">
                                 <h4>We’ll give you recommendations</h4>
@@ -189,9 +189,10 @@
             <section class="discover">
                 <div class="discover-inner">
                     <div class="discover-video">
-                        <video muted autoplay loop>
+                        <video muted autoplay loop playsinline>
                             <source src="./img/pexels-pavel-danilyuk-8970063.mp4" type="video/mp4">
-
+                            <source src="./img/pexels-pavel-danilyuk-8970063 (video-converter.com).webm"
+                                type="video/webm">
                             Your browser does not support the video tag.
                         </video>
                         <img src="./img/map.svg" alt="map">
@@ -423,7 +424,7 @@
                     {
                         breakpoint: 480,
                         settings: {
-                            slidesToShow: 2,
+                            slidesToShow: 1,
                             slidesToScroll: 1,
                             infinite: true,
                             autoplay: true,
@@ -474,7 +475,7 @@
                     {
                         breakpoint: 480,
                         settings: {
-                            slidesToShow: 3,
+                            slidesToShow: 2,
                             slidesToScroll: 1,
                             infinite: true,
                             autoplay: true,
