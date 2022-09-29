@@ -528,7 +528,7 @@ main {
 
 @media (max-width: 900px) {
   .booking-form-btn svg {
-    top: 20%;
+    top: 14%;
   }
 }
 
@@ -1325,12 +1325,13 @@ main {
 
 .carusel .slick-slide {
   width: 320px;
+
 }
 
 @media (max-width: 900px) {
   .carusel .slick-slide {
-    margin: auto;
-    width: 200px;
+
+    max-width: 200px;
   }
 }
 
