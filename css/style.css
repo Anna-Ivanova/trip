@@ -60,6 +60,10 @@ a:visited {
   cursor: pointer;
 }
 
+button {
+  cursor: pointer;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -278,7 +282,7 @@ main {
 }
 
 .tripgoal-main {
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   -webkit-column-gap: 8%;
   -moz-column-gap: 8%;
   column-gap: 8%;
@@ -310,6 +314,7 @@ main {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  transition: 0.3s ease-in-out;
 }
 
 .tripgoal-mountain img:hover {
@@ -342,6 +347,7 @@ main {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  transition: 0.3s ease-in-out;
 }
 
 .tripgoal-pool img:hover {
@@ -950,6 +956,7 @@ main {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  transition: 0.3s ease-in-out;
 }
 
 .tripgoal-night img:hover {
@@ -982,6 +989,7 @@ main {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  transition: 0.3s ease-in-out;
 }
 
 .tripgoal-window img:hover {
@@ -1163,6 +1171,12 @@ main {
   transform: translateY(-50%);
 }
 
+@media (max-width: 576px) {
+  .img2 {
+    display: none;
+  }
+}
+
 .img2 img {
   -o-object-fit: contain;
   object-fit: contain;
@@ -1179,6 +1193,13 @@ main {
   transform: translateY(-40%);
 }
 
+@media (max-width: 768px) {
+  .img3 {
+    top: 28%;
+    left: 10%;
+  }
+}
+
 .img3 img {
   -o-object-fit: contain;
   object-fit: contain;
@@ -1193,6 +1214,13 @@ main {
   top: 85%;
   -webkit-transform: translateY(-85%);
   transform: translateY(-85%);
+}
+
+@media (max-width: 1024px) {
+  .img4 {
+    top: 90%;
+
+  }
 }
 
 .img4 img {
@@ -1227,6 +1255,13 @@ main {
   transform: translateY(-20%);
 }
 
+@media (max-width: 1024px) {
+  .img6 {
+    top: 13%;
+    right: 18%;
+  }
+}
+
 .img6 img {
   -o-object-fit: contain;
   object-fit: contain;
@@ -1257,6 +1292,13 @@ main {
   top: 80%;
   -webkit-transform: translateY(-80%);
   transform: translateY(-80%);
+}
+
+@media (max-width: 1024px) {
+  .img8 {
+    top: 90%;
+
+  }
 }
 
 .img8 img {
